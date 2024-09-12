@@ -1,0 +1,117 @@
+/* Button */
+
+.button {
+   display: inline-block;
+   font-weight: var(--semi-bold);
+   padding: 1.4rem 2.8rem;
+   background-color: var(--purple);
+   border: 0.2rem solid var(--purple);
+   border-radius: 1.6rem;
+   color: var(--text-color);
+   line-height: 1.26;
+   text-align: center;
+   width: fit-content;
+   user-select: none;
+}
+
+.button:hover {
+   opacity: 0.8;
+}
+
+.button:focus {
+   box-shadow: 0 0 0 0.4rem #cbd6ee;
+}
+
+.button-white {
+   background-color: var(--text-color);
+   color: var(--black);
+}
+
+.button_gray {
+   background-color: var(--medium-gray);
+   border-color: var(--medium-gray);
+}
+
+/* Close button */
+
+.close_button  {
+   position: absolute;
+   right: 1.6rem;
+   top: 1.6rem;
+   border-radius: 50%;
+   width: 2.6rem;
+   height: 2.6rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.close_button:hover {
+   scale: 1.4;
+}
+
+.close_button>picture {
+   width: 1rem;
+   height: 1rem;
+}
+
+/* Modal Input */
+
+.modal__input__container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 0.4rem;
+}
+
+.modal_label {
+   color: var(--medium-black);
+   font-weight: var(--medium);
+   font-size: 1.4rem;
+   line-height: 1.57;
+}
+
+.modal_label>span {
+   color: var(--orange);
+}
+
+.modal_input {
+   width: 100%;
+   padding: 1rem 1.6rem;
+   border: 0.1rem solid var(--filthy-gray);
+   border-radius: 1.4rem;
+   color: var(--medium-black);
+   font-size: 1.4rem;
+   line-height: 1.57;
+}
+
+.modal_input:focus {
+   box-shadow: 0 0 0 0.2rem #cbd6ee;
+}
+
+.modal_input::placeholder {
+   color: var(--easy-gray);
+}
+
+input[type="tel"] {
+   padding-left: 4rem;
+}
+
+#flag {
+   position: absolute;
+   left: 1.6rem;
+   top: 4rem;
+   width: 2.2rem;
+   height: 1.6rem;
+}
+
+.input_errored {
+   border-color: var(--red);
+}
+
+.input_error {
+   color: var(--red);
+   font-size: 1.2rem;
+   line-height: 1.66;
+   display: none;
+}

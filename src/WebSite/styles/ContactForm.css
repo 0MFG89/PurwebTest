@@ -1,0 +1,41 @@
+.modal__contact-form {
+   display: none;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 4rem;
+}
+
+.modal__form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.modal__error {
+   color: var(--red);
+   font-size: 1.6rem;
+   line-height: 1.26;
+   display: none;
+}
+
+.modal__policyes {
+   color: var(--black);
+   font-size: 1.4rem;
+   line-height: 1.4;
+}
+
+.modal__policyes>p>a {
+   color: var(--purple);
+   text-decoration: underline;
+   text-underline-offset: 0.3rem;
+}
+
+@media (max-width: 426px) {
+   .modal__contact-form {
+      padding: 2rem 1.6rem;
+   }
+
+   .modal__submit-button.button {
+      width: 100%;
+   }
+}

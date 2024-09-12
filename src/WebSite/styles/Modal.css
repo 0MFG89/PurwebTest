@@ -1,0 +1,34 @@
+.modal {
+   position: fixed;
+   top: 5.6rem;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   display: none;
+   justify-content: center;
+   overflow: scroll;
+   scrollbar-width: none;
+}
+
+.modal::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.modal__container {
+   position: relative;
+   background-color: var(--text-color);
+   border-radius: 2rem;
+   display: flex;
+   width: 41.7rem;
+   height: fit-content;
+}
+
+@media (max-width: 426px) {
+   .modal__container {
+      width: 33.5rem;
+   }
+}
+
+
+

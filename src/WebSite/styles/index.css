@@ -1,0 +1,89 @@
+@import url('base.css');
+@import url('variables.css');
+@import url('ui.css');
+@import url('Tabs.css');
+@import url('Header.css');
+@import url('Hero.css');
+@import url('About.css');
+@import url('HowWorks.css');
+@import url('Indicators.css');
+@import url('WhyBudss.css');
+@import url('BusinessGrow.css');
+@import url('Footer.css');
+@import url('Cookies.css');
+@import url('Modal.css');
+@import url('ContactForm.css');
+@import url('Thanks.css');
+@import url('Menu.css');
+
+
+
+html {
+   font-size: 0.69vw;
+   color: var(--text-color);
+   font-family: Outfit, sans-serif;
+}
+
+body {
+   background-color: var(--main-color);
+   font-size: 2rem;
+   font-weight: var(--regular);
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   gap: 10rem;
+}
+
+a {
+   color: var(--text-color);
+}
+
+.marked {
+   position: relative;
+}
+
+.marked::after {
+   content: '';
+   position: absolute;
+   left: -3%;
+   bottom: 6%;
+   z-index: -1;
+   display: block;
+   background-color: var(--purple);
+   height: 3.4rem;
+   width: 106%;
+   border-radius: 3rem;
+   rotate: -1.69deg;
+}
+
+.mobile {
+   display: none;
+}
+
+.visible {
+   display: flex;
+}
+
+@media (max-width: 426px) {
+
+   html {
+      font-size: 2.66vw;
+   }
+
+   .marked::after {
+      rotate: -1.65deg;
+      height: 2.2rem;
+      width: 102%;
+      left: -1%;
+   }
+
+   .mobile {
+      display: flex;
+   }
+
+   .screen {
+      display: none;
+   }
+}

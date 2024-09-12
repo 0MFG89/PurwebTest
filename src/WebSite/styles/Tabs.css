@@ -1,0 +1,25 @@
+.tabs {
+   display: flex;
+   background-color: var(--yellow);
+   padding: 0 6rem;
+}
+
+.tab {
+   padding: 0.9rem 4rem;
+   background-color: transparent;
+   color: var(--black);
+   font-weight: var(--medium);
+   font-size: 1.6rem;
+}
+
+.tab_active {
+   background-color: var(--main-color);
+   border-radius: 2rem 2rem 0 0;
+   color: var(--text-color);
+}
+
+@media (max-width: 426px) {
+   .tabs {
+      padding: 0;
+   }
+} 

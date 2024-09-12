@@ -1,0 +1,54 @@
+.cookies {
+   position: fixed;
+   bottom: 3rem;
+   left: 9rem;
+   right: 6.5rem;
+   z-index: 9999;
+   display: none;
+   align-items: flex-end;
+   color: var(--black);
+   opacity: 0;
+   transition: opacity 0.3s ease-in;
+}
+
+.cookies__container {
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 14rem;
+   padding: 3rem 6rem 3rem 3rem;
+   background-color: var(--text-color);
+   border-radius: 1.6rem;
+}
+
+.cookies__info>p {
+   font-weight: var(--light);
+}
+
+.cookies__buttons {
+   display: flex;
+   gap: 2rem;
+}
+
+@media (max-width: 426px) {
+   .cookies {
+      bottom: 2rem;
+      left: 2rem;
+      right: 2rem;
+   }
+   
+   .cookies__container {
+      flex-direction: column;
+      gap: 4rem;
+      padding: 3rem 2rem;
+   }
+   
+   .cookies__buttons {
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .cookies__button.button {
+      width: 100%;
+   }
+}

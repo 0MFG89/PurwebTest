@@ -1,0 +1,286 @@
+.why-budss {
+   display: flex;
+   flex-direction: column;
+   gap: 7rem;
+}
+
+.why-budss__title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.why-budss__title__container {
+   text-align: center;
+   width: 47%;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.why-budss__title__container>h2 {
+   font-size: 6.4rem;
+   font-weight: var(--bold);
+   line-height: 1.06;
+}
+
+.why-budss__title__container>p {
+   font-size: 3.6rem;
+   line-height: 1.26;
+   font-weight: var(--semi-bold);
+}
+
+.why-budss__reasons {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   padding: 0 7rem;
+}
+
+.why-budss__reason {
+   position: relative;
+   background-color: var(--white);
+   border-radius: 3rem;
+   overflow: hidden;
+}
+
+.why-budss__reason:nth-child(1) {
+   flex: 0 0 56.3%;
+   padding: 4rem 4rem 5rem 32.9rem;
+}
+
+.why-budss__reason:nth-child(2) {
+   flex: 0 0 42.1%;
+   padding: 4rem 9.1rem 5rem 4rem;
+}
+
+.why-budss__reason:nth-child(3) {
+   flex: 0 0 42.1%;
+   padding: 4rem 6.7rem 8.6rem 4rem;
+}
+
+.why-budss__reason:nth-child(4) {
+   flex: 0 0 56.3%;
+   padding: 4rem 29.1rem 8.6rem 4rem;
+}
+
+.why-budss__reason__describtion {
+   color: var(--black);
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.why-budss__reason__describtion>h3 {
+   font-size: 4.8rem;
+   font-weight: var(--semi-bold);
+   line-height: 1.26;
+}
+
+.why-budss__reason__p {
+   width: 95%;
+}
+
+.why-budss__reason__describtion>h3 {
+   font-weight: var(--semi-bold);
+}
+
+.supercharge {
+   width: 70%;
+}
+
+.seasoned {
+   width: 100%;
+}
+
+.why-budss__decorations {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   pointer-events: none;
+}
+
+.why-budss__decorations__phone {
+   position: absolute;
+   z-index: 10;
+   bottom: 0;
+   left: 1.5rem;
+   width: 26.3rem;
+}
+
+.why-budss__decorations__vector {
+   position: absolute;
+   bottom: 0;
+   
+}
+
+.why-budss__decorations__vector>img {
+   width: 32.1rem;
+}
+
+.why-budss__decorations__star1 {
+   position: absolute;
+   top: 6.5rem;
+   left: 21.2rem;
+   width: 3.9rem;
+}
+
+.why-budss__decorations__star2 {
+   position: absolute;
+   top: 3.7rem;
+   left: 24.5rem;
+   width: 2.5rem;
+}
+
+.why-budss__decorations__purple-pack {
+   position: absolute;
+   top: 8rem;
+   right: 0;
+}
+
+.why-budss__decorations__aqua-pack {
+   position: absolute;
+   left: 7.2rem;
+   bottom: 0;
+   width: 7.2rem;
+}
+
+.why-budss__decorations__yellow-pack {
+   position: absolute;
+   right: 6rem;
+   bottom: 0;
+   width: 9.3rem;
+}
+
+.why-budss__decorations__pokemon-aqua {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 20.2rem;
+}
+
+.why-budss__decorations__pokemon-purple {
+   position: absolute;
+   right: 4.3rem;
+   bottom: 0;
+   width: 21rem;
+}
+
+
+
+@media (max-width: 426px) {
+   .why-budss__title__container {
+      width: 100%;
+      padding-left: 1.6rem;
+   }
+
+   .why-budss__title__container>h2 {
+      font-size: 4rem;
+   }
+
+   .why-budss__title__container>p {
+      font-size: 2.4rem;
+   }
+
+   .why-budss__reasons {
+      padding: 0 1.6rem;
+   }
+
+   .why-budss__reason:nth-child(1),
+   .why-budss__reason:nth-child(2),
+   .why-budss__reason:nth-child(3),
+   .why-budss__reason:nth-child(4) {
+      flex: 0 0 100%;
+      padding: 2rem 2rem 0 2rem;
+   }
+
+   .why-budss__reason:nth-child(1) {
+      padding-bottom: 19.8rem;
+   }
+   
+   .why-budss__reason:nth-child(2) {
+      padding-bottom: 12.9rem
+   }
+   
+   .why-budss__reason:nth-child(3) {
+      padding-bottom: 11.5rem;
+   }
+   
+   .why-budss__reason:nth-child(4) {
+      padding-bottom: 19.1rem;
+   }
+
+   .why-budss__reason__describtion>h3 {
+      font-size: 3.2rem;
+      font-weight: var(--bold);
+   }
+   
+   .why-budss__reason__p {
+      font-size: 1.6rem;
+      width: 100%;
+   }
+
+   .seasoned {
+      width: 88.3%;
+   }
+
+   .harness {
+      width: 97%;
+   }
+   
+   .supercharge {
+      width: 90%;
+   }
+
+   .why-budss__decorations__phone {
+      left: 2rem;
+   }
+
+   .why-budss__decorations__phone>img {
+      width: 21.9rem;
+   }
+   
+   .why-budss__decorations__vector {
+      bottom: 0;
+   }
+
+   .why-budss__decorations__vector>img {
+      width: 19rem;
+   }
+   
+   
+   .why-budss__decorations__star1 {
+      width: 2.5rem;
+      top: 22.5rem;
+      left: 17.8rem;
+   }
+   
+   .why-budss__decorations__star2 {
+      width: 1.6rem;
+      top: 20.7rem;
+      left: 19.9rem;
+   }
+   
+   .why-budss__decorations__purple-pack {
+      width: 6.1rem;
+      top: 20.1rem;
+   }
+   
+   .why-budss__decorations__aqua-pack {
+      left: 1rem;
+   }
+   
+   .why-budss__decorations__yellow-pack {
+      right: 11.5rem;
+   }
+   
+   .why-budss__decorations__pokemon-purple {
+      width: 14.3rem;
+      top: 21rem;
+      right: 5.5rem;
+   }
+}
